@@ -1,9 +1,9 @@
 
-import React, { useState, useEffect } from 'react';
-import { VISIT_PROGRAM } from './constants';
-import { RoomImage } from './types';
-import ImageUploader from './components/ImageUploader';
-import { generateExecutiveSummary } from './services/geminiService';
+import React, { useState } from 'react';
+import { VISIT_PROGRAM } from './constants.tsx';
+import { RoomImage } from './types.ts';
+import ImageUploader from './components/ImageUploader.tsx';
+import { generateExecutiveSummary } from './services/geminiService.ts';
 
 const App: React.FC = () => {
   const [roomImages, setRoomImages] = useState<RoomImage[]>([]);

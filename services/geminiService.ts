@@ -1,6 +1,6 @@
 
 import { GoogleGenAI } from "@google/genai";
-import { ProgramData } from '../types';
+import { ProgramData } from '../types.ts';
 
 export async function generateExecutiveSummary(program: ProgramData): Promise<string> {
   const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });

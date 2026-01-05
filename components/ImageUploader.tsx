@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { RoomImage } from '../types';
+import { RoomImage } from '../types.ts';
 
 interface ImageUploaderProps {
   images: RoomImage[];

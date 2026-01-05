@@ -1,5 +1,5 @@
 
-import { ProgramData } from './types';
+import { ProgramData } from './types.ts';
 
 export const VISIT_PROGRAM: ProgramData = {
   agency: "Wevent Smart Meeting",
