@@ -1,0 +1,7 @@
+{
+  "name": "Wevent Smart Meeting - Visit Program",
+  "description": "A professional dashboard for presenting corporate visit programs and offsite events, with dynamic room gallery management and executive summaries.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
